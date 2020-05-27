@@ -4,7 +4,20 @@
 
 ### Currently in development stage    
 
-#### How to use it
+#### Javascript used  
+setAttribute('class')  
+setAttribute("style")  
+createElement  
+textContent  
+prepend  
+innerHTML  
+addEventListener('click')  
+style.cssText  
+querySelectorAll('img')  
+forEach()  
+anonymous function  
+
+##### How to use it
 1. You can use it just download it with:  
 git clone https://github.com/jordantsap/wact.git  
 

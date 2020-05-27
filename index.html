@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script>
+      let startTime = performance.now();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WAC - Web Accessibility Compliance Tool</title>
+    <!-- bootstrap cdn for basic css styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>WAC - Web Accessibility Compliance Tool</title>
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
 
-  <link rel="icon" type="image/x-icon" href="favicon.svg" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-  <link href="style.css" rel="stylesheet" />
-</head>
+  <body>
 
-<body>
-<div class="container">
-  <a href="/">Wact</a>
-<nav>
+    <div class="container">
+      <a href="index.html">Wact</a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
 
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
-</nav>
+    <div class="container">
+      <h1>h1 form element</h1>
+      <form action="" class="form-horizontal form-group">
+        <label for="name">First Name</label>
+        <input type="text" class="form-control" id="fname" placeholder="First Name input">
+        <label for="name">Last Name</label>
+        <input type="text" class="form-control" id="lname" placeholder="Last Name input">
+        <button type="button" class="form-control btn btn-primary btn-block" name="button">Submit</button>
+      </form>
+    </div>
+  <hr>
+    <div class="container">
+      <h1>H1 Text container</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita vero ad quisquam, tempore laboriosam ab, impedit nulla dignissimos odio!
+      </p>
+    </div>
+    <hr>
 
-<h1> h1 tag element</h1>
+    <div class="container">
+      <h1>6 splush images, no design with css, all made with js</h1>
+      <h2>No html markup or css used, just the <code> img src </code> code! </h2>
+      <h3>javascript style fit container in 100% width</h3>
+      <img src="img/birthday.jpg">
+      <img src="img/elvis.jpg">
+      <img src="img/event.jpg">
+      <img src="img/foinikes.jpg">
+      <img src="img/internetcoffee.jpg">
+      <img src="img/people3.jpg">
+    </div>
+    <footer style="padding: 20px 0;background-color: #000000">
+    <div style="padding-left:5px;color:#fff;">
+      Copyright Web Accessibility coding
+    </div>
+    </footer>
 
-</div>
 
-  <script src="wact.js" charset="utf-8"></script>
+    <script src="./wact.js"></script>
 
-</body>
-
+  </body>
 </html>
