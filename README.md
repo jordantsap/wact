@@ -14,6 +14,7 @@ prepend
 innerHTML  
 addEventListener('click')  
 style.cssText  
+Object.assign  
 appendChild  
 querySelectorAll('img')  
 forEach()  
@@ -26,6 +27,6 @@ git clone https://github.com/jordantsap/wact.git
 
 2. Copy the wact.js file to the required website location  
 
-3. Link the file using <script src="wact.js"></script> html tag  
+3. Link the file using <script src="wact.js"></script> in head or footer html tag  
 
 4. Enjoy!
